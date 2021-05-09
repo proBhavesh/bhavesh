@@ -125,10 +125,49 @@ const skills = {
             color: "#CB3837",
           },
         },
-        
       ],
     },
+    {
+      title: "Backend Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building reliable and APIs",
+        "⚡ Connecting database to the application for seamless experience",
+        "⚡ Creating application backend in Node, Express & Flask",
+      ],
+      softwareSkills: [
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
 
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+      ],
+    },
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
@@ -138,7 +177,6 @@ const skills = {
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
-      
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -146,7 +184,7 @@ const skills = {
             color: "#F24E1E",
           },
         },
-       
+
         {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
@@ -173,8 +211,7 @@ const degrees = {
       logo_path: "iiitk_logo.png",
       alt_name: "IIITDM Kurnool",
       duration: "2020 - Present",
-      descriptions: [
-        ],
+      descriptions: [],
       website_link: "http://niftem.ac.in",
     },
   ],
@@ -187,7 +224,7 @@ const certifications = {
       subtitle: "- FreeCodeCamp",
       logo_path: "gcp_logo.png",
       certificate_link:
-      "https://www.freecodecamp.org/certification/bhavesh392/responsive-web-design",
+        "https://www.freecodecamp.org/certification/bhavesh392/responsive-web-design",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
@@ -212,7 +249,7 @@ const experience = {
           logo_path: "freecopy_logo.png",
           duration: "Dec 2020 - Current",
           description:
-          "Coded websites using HTML, CSS and JavaScript. Design websites using Figma. Debuged code",
+            "Coded websites using HTML, CSS and JavaScript. Design websites using Figma. Debuged code",
           color: "#fc1f20",
         },
       ],
@@ -234,7 +271,6 @@ const experience = {
     //     },
     //   ],
     // },
- 
   ],
 };
 
@@ -263,10 +299,10 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Shahjadpur, T.A.-Mundawar, Dist.-Alwar, Rajasthan - 301427",
+    subtitle: "Shahjadpur, T.A.-Mundawar, Dist.-Alwar, Rajasthan - 301427",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/Shahjadpur,+Rajasthan+301427/@27.9332569,76.4722838,12z/data=!4m2!3m1!1s0x3972aa3f8e39e383:0xf105571e16296013",
+    location_map_link:
+      "https://www.google.com/maps/place/Shahjadpur,+Rajasthan+301427/@27.9332569,76.4722838,12z/data=!4m2!3m1!1s0x3972aa3f8e39e383:0xf105571e16296013",
   },
   phoneSection: {
     title: "Phone Number",
